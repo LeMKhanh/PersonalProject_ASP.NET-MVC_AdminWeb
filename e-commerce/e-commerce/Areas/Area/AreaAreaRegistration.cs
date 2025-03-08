@@ -17,7 +17,7 @@ namespace e_commerce.Areas.Area
             context.MapRoute(
                 "Area_default",
                 "Area/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { action = "IndexAdmin", id = UrlParameter.Optional }
             );
         }
     }

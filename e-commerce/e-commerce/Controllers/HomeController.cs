@@ -26,5 +26,11 @@ namespace e_commerce.Controllers
 
             return View();
         }
+        public ActionResult Admin()
+        {
+            ViewBag.Message = "Admin";
+
+            return View();
+        }
     }
 }

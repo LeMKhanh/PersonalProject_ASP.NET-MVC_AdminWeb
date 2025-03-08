@@ -9,7 +9,7 @@ namespace e_commerce.Areas.Area.Controllers
     public class HomeAdminController : Controller
     {
         // GET: Area/HomeAdmin
-        public ActionResult Index()
+        public ActionResult IndexAdmin()
         {
             return View();
         }
